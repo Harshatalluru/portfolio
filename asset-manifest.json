@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/harish_Profile/static/css/main.9c224f6b.css",
-    "main.js": "/harish_Profile/static/js/main.89e3efd2.js",
-    "static/media/harish.png": "/harish_Profile/static/media/harish.73911f02ea7c5839bcad.png",
-    "static/media/harishs.png": "/harish_Profile/static/media/harishs.95d87ae5fb115c992e2f.png",
-    "static/media/hectae.jpeg": "/harish_Profile/static/media/hectae.40040098718a023d356d.jpeg",
-    "index.html": "/harish_Profile/index.html",
-    "main.9c224f6b.css.map": "/harish_Profile/static/css/main.9c224f6b.css.map",
-    "main.89e3efd2.js.map": "/harish_Profile/static/js/main.89e3efd2.js.map"
+    "main.css": "/harish_profile/static/css/main.9c224f6b.css",
+    "main.js": "/harish_profile/static/js/main.54c8927e.js",
+    "static/media/harish.png": "/harish_profile/static/media/harish.73911f02ea7c5839bcad.png",
+    "static/media/harishs.png": "/harish_profile/static/media/harishs.95d87ae5fb115c992e2f.png",
+    "static/media/hectae.jpeg": "/harish_profile/static/media/hectae.40040098718a023d356d.jpeg",
+    "index.html": "/harish_profile/index.html",
+    "main.9c224f6b.css.map": "/harish_profile/static/css/main.9c224f6b.css.map",
+    "main.54c8927e.js.map": "/harish_profile/static/js/main.54c8927e.js.map"
   },
   "entrypoints": [
     "static/css/main.9c224f6b.css",
-    "static/js/main.89e3efd2.js"
+    "static/js/main.54c8927e.js"
   ]
 }
