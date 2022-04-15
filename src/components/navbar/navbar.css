@@ -1,0 +1,122 @@
+
+.profile-main{
+    
+ 
+    color: antiquewhite;
+}
+
+
+
+
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+
+
+
+.Menu li:hover{
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    text-decoration: none;
+    
+}
+
+.Menu li {
+    padding: 5px 14px;
+   }
+
+
+
+.profile-nav-name{
+    
+    color: rgb(128, 19, 244);
+    font-size: 32px;
+   
+    
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+ 
+    color: black;
+   }
+
+
+   .Menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+
+
+
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+   } 
+   /*HAMBURGER MENU*/
+    .ham {
+    display: none;
+   
+  
+   }
+
+   @media (max-width: 768px) {
+   .Menu { 
+    display:none;
+    position: absolute;
+    background-color:rgb(3, 1, 20,0.120);
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+   }
+   .Menu li:hover {
+    display: inline-block;
+    background-color:#4c9e9e;
+    transition: 0.3s ease;
+   }
+   .Menu li + li {
+    margin-top: 12px;
+   }
+   input[type=checkbox]:checked ~ .Menu{
+    display: block;
+   }
+   .ham{
+       display: block;
+   }
+
+
+   }
+
+
+
+
+.profile-primary{
+    display: flex;
+   float: center;
+
+   justify-content: center;
+    
+
+
+}
+
+.profile-profs{
+   
+           color: aqua;
+}
+
+
+
+
