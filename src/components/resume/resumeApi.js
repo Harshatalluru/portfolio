@@ -4,7 +4,7 @@ const ResumeApi = [
       category: "education",
       year: "Board of Secondary Eduction (2005 - 2017)",
       title: "Sri Raghavendra high school",
-      desc: "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      desc: "",
       rate: "8.7/10",
     },
     {
@@ -12,7 +12,7 @@ const ResumeApi = [
       category: "education",
       year: "Board of Intermediate Education (2017 - 2019) ",
       title: "Govt jr college",
-      desc: "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      desc: "",
       rate: "9.23/10",
     },
     {
@@ -20,17 +20,50 @@ const ResumeApi = [
       category: "education",
       year: "Jawaharlal Nehru Technological University Anantapur (2019 - 2023) ",
       title: "Audisankara college of engineering (Autonomous)",
-      desc: "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+      desc: "",
       rate: "Pursuing.. ",
     },
     {
       id: 4,
       category: "experience",
-      year: "Hectae Analytics and Software Solutions Private Limited (2021 - pursuing) ",
-      title: "Software developer intern",
-      desc: "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-      rate: "4.70/5 ",
+      year: "Intermediate Level",
+      title: "ReactJs",
+      desc: "",
+      rate: "4/5 ",
     },
+    {
+      id: 5,
+      category: "experience",
+      title: "NodeJs",
+      year: "Intermediate Level",
+      desc: "",
+      rate: "3/5 ",
+    },
+    {
+      id: 6,
+      category: "experience",
+      title: "ExpressJs",
+      year: "Intermediate Level",
+      desc: "",
+      rate: "3/5 ",
+    },
+    {
+      id: 7,
+      category: "experience",
+      title: "NextJS",
+      year: "Basics Level",
+      desc: "",
+      rate: "3.5/5 ",
+    },
+    {
+      id: 8,
+      category: "experience",
+      title: "ExpressJs",
+      year: "Basic Level",
+      desc: "",
+      rate: "3/5 ",
+    }
+    
     
   ]
   

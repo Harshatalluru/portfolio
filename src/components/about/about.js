@@ -22,10 +22,8 @@ const About = () => {
           readable content.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+         My name is harish, i am a student, Full stack developer is my ambition,
+         
         </p>
         <button style={{marginRight:"10px",borderRadius:"10px",backgroundColor:"palevioletred",borderBlockColor:"palevioletred"}}>Hire ME</button><button style={{borderRadius:"10px"}}>Download Resume</button>
         <div className="a-award">
@@ -36,7 +34,7 @@ const About = () => {
              Hectea analytics and software solutions
             </p>
             <p className="a-award-desc">
-            Software developer intern
+            internship
             </p>
           </div>
         </div>
