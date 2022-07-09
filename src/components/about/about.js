@@ -22,7 +22,11 @@ const About = () => {
           readable content.
         </p>
         <p className="a-desc">
-         My name is harish, i am a student, Full stack developer is my ambition,
+       Expert Lead Web Developer specializing in front-end development.
+       Experienced with all stages of development cycle for dynamic web projects.
+       Well-versed in javascript and javascript frameworks. Strong background in
+       backend development
+
          
         </p>
         <button style={{marginRight:"10px",borderRadius:"10px",backgroundColor:"palevioletred",borderBlockColor:"palevioletred"}}>Hire ME</button><button style={{borderRadius:"10px"}}>Download Resume</button>

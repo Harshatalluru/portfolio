@@ -27,15 +27,21 @@
   .i-intro {
     font-size: 30px;
     font-weight: 300;
+    margin-top: -30px;
   }
   
   .i-name {
-    font-size: 60px;
+    font-size: 30px;
+    margin-top: -20px;
   }
   
   .i-title {
-    height: 50px;
+    height: 60px;
     overflow: hidden;
+    
+    margin-bottom: 30px;
+    margin-top: -30px;
+
   }
   
   .i-title-wrapper {

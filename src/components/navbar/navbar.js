@@ -6,7 +6,7 @@ const Navbar = ({theme}) => {
     <div className='navs' >
         <div className='profile-main'>
           <nav className='navbar'>
-          <div className=' profile-nav-name' style={{fontWeight:"bold"}}>Harish Profile</div>
+          <div className=' profile-nav-name' style={{fontWeight:"bold"}}>HARISH TALLURU </div>
           
 <ul className='profile-list'>
   

@@ -8,14 +8,14 @@ const Resume = () => {
     <>
       <section className='Resume' id='resume'>
         <div className='container top'>
-          <div className='heading text-center'>
-            <h4>6+ months OF EXPERIENCE</h4>
+          <div className='heading text-center' style={{textAlign:'center'}}>
+            <h1>9+ months OF EXPERIENCE</h1>
             <h1 style={{color:"darkseagreen"}}>My Resume</h1>
           </div>
 
           <div className='content-section mtop d_flex'>
             <div className='left'>
-              <div className='heading'>
+              <div className='heading' style={{marginLeft:60}}>
                 <h4>2017-2023</h4>
                 <h1>Education Quality</h1>
               </div>
@@ -43,7 +43,7 @@ const Resume = () => {
               </div>
             </div>
             <div className='left'>
-              <div className='heading'>
+              <div className='heading' style={{marginLeft:60}}>
                 <h4>2022</h4>
                 <h1>Skills</h1>
               </div>
