@@ -2,8 +2,50 @@ import React from "react"
 import "./resume.css"
 import ResumeApi from "./resumeApi"
 import Card from "./card"
+import { ImageList, ImageListItem, ImageListItemBar } from "@mui/material"
+import reactjs from "./reactjs.png"
+import nodejs from './nodejs.png'
+import sql from './sql.png'
+import sqlbasic from './hackersqlb.png'
+import sqlintermediate from './hackersqli.png'
+
+
+const itemData = [
+  {
+    img: reactjs,
+    title: 'REACTJS',
+    author: 'HACKERRANK CERTIFIED',
+  },
+  {
+    img: nodejs,
+    title: 'NODEJS',
+    author: 'HACKERRANK CERTIFIED',
+  },
+  {
+    img: sqlbasic,
+    title: 'SQL(basics)',
+    author: 'HACKERRANK CERTIFIED',
+  },
+  {
+    img: sqlintermediate,
+    title: 'SQL(intermediate)',
+    author: 'HACKERRANK CERTIFIED',
+  },
+  {
+    img: sql,
+    title: 'SQL',
+    author: 'SKILLUP CERTIFIED',
+  },
+
+];
+
+
+
 
 const Resume = () => {
+
+
+
   return (
     <>
       <section className='Resume' id='resume'>
@@ -15,7 +57,7 @@ const Resume = () => {
 
           <div className='content-section mtop d_flex'>
             <div className='left'>
-              <div className='heading' style={{marginLeft:60}}>
+              <div className='heading' style={{color:'#1193EEF5'}} >
                 <h4>2017-2023</h4>
                 <h1>Education Quality</h1>
               </div>
@@ -43,9 +85,9 @@ const Resume = () => {
               </div>
             </div>
             <div className='left'>
-              <div className='heading' style={{marginLeft:60}}>
-                <h4>2022</h4>
-                <h1>Skills</h1>
+              <div className='heading' style={{color:'#1193EEF5'}} >
+              
+                <h1>Programming Skills</h1>
               </div>
 
               <div className='content'>
@@ -58,6 +100,28 @@ const Resume = () => {
             </div>
           </div>
         </div>
+        <div className='heading' style={{color:'#1193EEF5'}} >
+              
+                <h1 style={{textAlign:'center'}}>Certifications</h1>
+              </div>
+        <ImageList sx={{ width: '100%', height: 450 }} style={{justifyItems:'center'}}>
+      {itemData.map((item) => (
+        <ImageListItem key={item.img}>
+          <img
+            src={`${item.img}?w=248&fit=crop&auto=format`}
+            srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+            alt={item.title}
+            loading="lazy"
+          />
+          <ImageListItemBar
+            title={item.title}
+            subtitle={<span>by: {item.author}</span>}
+            position="below"
+          />
+        </ImageListItem>
+      ))}
+    </ImageList>
+  
       </section>
     </>
   )

@@ -12,7 +12,7 @@ export default function Profile() {
       <div className="i-left">
         <div className="" style={{marginBottom:30}}>
           <h3 className="i-intro" style={{fontWeight:"100px",color:"darksalmon"}}>Hello, My name is</h3>
-          <h2 className="i-name" style={{color:"pilepink"}}>Harish Talluru</h2>
+          <h1 className="i-name" style={{color:"pilepink"}}>Harish Talluru</h1>
           <div className="i-title">
          <h2 style={{color:"orange"}}>
             <Typical

@@ -38,7 +38,7 @@ const About = () => {
              Hectea analytics and software solutions
             </p>
             <p className="a-award-desc">
-            internship
+            software development internship
             </p>
           </div>
         </div>

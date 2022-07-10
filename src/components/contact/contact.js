@@ -1,5 +1,6 @@
 import React from 'react'
 import './contact.css'
+import TextField from '@mui/material/TextField'
 export default function Contact() {
 
     
@@ -47,12 +48,13 @@ export default function Contact() {
      
           </p>
           <form  >
-            <input  type="text" placeholder="Name" name="user_name" />
+            
+<TextField id="standard-basic" label="username" variant="standard" color="primary" fullWidth  />
          
-            <input  type="text" placeholder="Email" name="user_email" />
+<TextField id="standard-basic" label="Email" variant="standard" fullWidth />
             <textarea  rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
-            {"Thank you..."}
+           
           </form>
         </div>
       </div>
